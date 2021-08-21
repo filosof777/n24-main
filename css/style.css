@@ -1,0 +1,121 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Rubik', sans-serif; 
+  margin: 0;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.big-news-title {
+  font-weight: 500;
+  color: #202020;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.title-h2 {
+  font-weight: 500;
+  color: #000000;
+}
+
+.big-news-text {
+  font-size: 15px;
+  color: #434343;
+  margin-left: 5px;
+}
+
+.small-news-title {
+  width: 346px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+
+.big-news-pozition {
+  align-items: center;
+}
+
+.time-icon {
+  margin-left: 5px;
+  display: flex;
+  padding-right: 5px;
+}
+
+
+
+.time-icon::before {
+  content: "";
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 16.5px;
+  margin-right: 5px;
+  display: block;
+}
+
+.small-news-border {
+  margin-top: 15px;
+  padding: 1px 20px 18px 20px;
+  border-radius: 15px;
+  background-color: #F6F6F9;
+}
+
+.small-news {
+  margin-left: 10px;
+}
+
+.ucell-img {
+  margin-top: 10px;
+}
+
+.small-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-left: 10px;
+}
+
+.small-time {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+
+.border-line {
+  border: 1px solid #E4E4E4;
+  padding-right: 347px;
+  margin-top: 14px;
+}
+
+.btn-pozition {
+  margin-top: 18px;
+}
+
+.btn {
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-left: 360px;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  border: 1px solid #295093;
+  padding: 10px 31px;
+  color: #295093;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #295093;
+  color: #fff;
+  
+}
